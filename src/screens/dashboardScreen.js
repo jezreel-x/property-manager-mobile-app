@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'yellow',
         padding: 15,
         width: 110,
-        marginTop: 650,
+        marginTop: 50,
         alignSelf: 'center',
         borderRadius: 15
     }

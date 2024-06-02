@@ -95,10 +95,6 @@ const MaintenanceRequest = () => {
                             <Unit />
                         </View>
                         <View>
-                            <Text style={{ color: 'white', paddingLeft: 20, fontSize: 18 }}>Request Date</Text>
-                          
-                        </View>
-                        <View>
                             <Text style={{ color: 'white', paddingLeft: 20, fontSize: 18 }}>Maintainer</Text>
                             <Maintainer />
                         </View>
