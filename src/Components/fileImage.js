@@ -115,7 +115,7 @@ export const ImageDoc = () => {
   };
 
   const pickFile = async () => {
-    let result = await DocumentPicker.getDocumentAsync({ type: '*/*' });
+    let result = await DocumentPicker.getDocumentAsync({ type: '*/*', multiple: true });
     if (result.type !== 'cancel') {
       setSelectedFile(result);
     }
@@ -123,9 +123,11 @@ export const ImageDoc = () => {
 
   return (
     <View style={styles.container}>
+     
       <TouchableOpacity style={styles.button} onPress={pickImage}>
         <Text style={styles.buttonText}>Pick an Image</Text>
       </TouchableOpacity>
+   
       {selectedImage && (
         <>
             <Text style={styles.fileText}>

@@ -17,7 +17,7 @@ from 'react-native';
 import DropdownTextInput from '../Components/FeaturedPropertyOptions';
 // import DropdownTextInput from './Pages/DropdownTextInput';
 
-const TextInputExample = ({ navigation }) => {
+const CreateAccount = ({ navigation }) => {
   const [fullName, setFullName] = React.useState('');
   const [email, setEmail] = React.useState('');
   const [phone, setPhone] = React.useState('');
@@ -178,4 +178,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default TextInputExample;
+export default CreateAccount;
