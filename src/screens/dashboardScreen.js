@@ -25,26 +25,26 @@ const Dashboard = ({ navigation }) => {
                 <ScrollView>
                     <View>
                         <TouchableOpacity style={styles.totalProp}>
-                            <Text style={{ fontSize: 24, marginBottom: 18, fontWeight: '700' }}>Total Property</Text>
-                            <Text style={{ fontSize: 24}}>{initValue}</Text>
+                            <Text style={{ fontSize: 24, marginBottom: 18, fontWeight: '700', color: 'yellow' }}>Total Property</Text>
+                            <Text style={{ fontSize: 24, color: 'yellow'}}>{initValue}</Text>
                         </TouchableOpacity>
                     </View>
                     <View>
                         <TouchableOpacity style={styles.totalProp}>
-                            <Text style={{ fontSize: 24, marginBottom: 18, fontWeight: '700' }}>Total Unit</Text>
-                            <Text style={{ fontSize: 24}}>{initValue}</Text>
+                            <Text style={{ fontSize: 24, marginBottom: 18, fontWeight: '700', color: 'yellow' }}>Total Unit</Text>
+                            <Text style={{ fontSize: 24, color: 'yellow'}}>{initValue}</Text>
                         </TouchableOpacity>
                     </View>
                     <View>
                         <TouchableOpacity style={styles.totalProp}>
-                            <Text style={{ fontSize: 24, marginBottom: 18, fontWeight: '700' }}>Total Invoice</Text>
-                            <Text style={{ fontSize: 24}}>${initValue}</Text>
+                            <Text style={{ fontSize: 24, marginBottom: 18, fontWeight: '700', color: 'yellow' }}>Total Invoice</Text>
+                            <Text style={{ fontSize: 24, color: 'yellow'}}>${initValue}</Text>
                         </TouchableOpacity>
                     </View>
                     <View>
                         <TouchableOpacity style={styles.totalProp}>
-                            <Text style={{ fontSize: 24, marginBottom: 18, fontWeight: '700' }}>Total Expense</Text>
-                            <Text style={{ fontSize: 24}}>${initValue}</Text>
+                            <Text style={{ fontSize: 24, marginBottom: 18, fontWeight: '700', color: 'yellow' }}>Total Expense</Text>
+                            <Text style={{ fontSize: 24, color: 'yellow' }}>${initValue}</Text>
                         </TouchableOpacity>
                     </View>
                 </ScrollView>
@@ -62,16 +62,17 @@ const Dashboard = ({ navigation }) => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#000'
+        backgroundColor: '#222'
     },
     totalProp: {
         margin: 12,
-        backgroundColor: '#ddd',
+        backgroundColor: '#171717',
         borderColor: '#000',
         borderRadius: 15,
         borderWidth: 2,
         padding: 10,
         textAlignVertical: 'top',
+        elevation: 15,
         width: 360,
         height: 120
     },
