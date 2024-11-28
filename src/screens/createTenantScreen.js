@@ -104,7 +104,7 @@ const CreateTenant = ({ navigation }) => {
                 <View style={styles.inputField}>
                     <ScrollView>
                         <Image style={styles.tinyLogo} 
-                        source={require('C:/Users/User/Desktop/AirHousing App/PropertyManagerApp/assets/yellow.png')} />
+                        source={require('../../assets/yellow.png')} />
                         <Text style={{ color: 'white', paddingLeft: 20, fontSize: 18 }}>First Name</Text>
                         <TextInput
                             style={styles.input}

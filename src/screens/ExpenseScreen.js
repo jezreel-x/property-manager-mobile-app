@@ -81,7 +81,7 @@ const Expense = ({ navigation }) => {
             <ScrollView>
                 <View style={styles.inputField}>
                 <Image style={styles.tinyLogo} 
-                source={require('C:/Users/User/Desktop/AirHousing App/PropertyManagerApp/assets/yellow.png')} />
+                source={require('../../assets/yellow.png')} />
                <Text style={styles.textTitle}>Enter Expense Title</Text>
                 <TextInput
                     style={styles.input}

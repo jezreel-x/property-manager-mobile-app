@@ -67,7 +67,7 @@ const SignIn = ({ navigation }) => {
       >
         <View style={styles.inputField}>
             <Image style={styles.tinyLogo} 
-            source={require('C:/Users/User/Desktop/AirHousing App/PropertyManagerApp/assets/yellow.png')} />
+            source={require('../../assets/yellow.png')} />
             <TextInput
                 style={styles.input}
                 onChangeText={handleEmailChange}

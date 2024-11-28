@@ -68,7 +68,7 @@ const Notes = ({ navigation }) => {
             <ScrollView>
                 <View style={styles.inputField}>
                 <Image style={styles.tinyLogo} 
-                source={require('C:/Users/User/Desktop/AirHousing App/PropertyManagerApp/assets/yellow.png')} />
+                source={require('../../assets/yellow.png')} />
                <Text style={styles.textTitle}>Title</Text>
                 <TextInput
                     style={styles.input}
